@@ -216,6 +216,9 @@ nav ul li a:hover::after{
 .project-list div p {
     margin-bottom: 35px;
     line-height: 1.5em;
+    font-size: 15px;
+    color: #ababaa;
+
 }
 .project-list div div.button-container{
     width: 100%;
