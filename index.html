@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRIJITH A P</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+    <script src="https://kit.fontawesome.com/fa721e50a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="./Images/portfolio-2.jpg" alt="logo" class="logo"> -->
+                <h1>PORTFOLIO</h1>
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Srijith</span></h1>
+                <p>Fullstack Developer</p>
+                <h4>Welcome To My Portfolio </h4>
+                <div class="social-icons">
+                    <a href="https://instagram.com/srijith_sreenivasan?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/srijith-a-p-5b60a3169/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Srijith21"><i class="fa-brands fa-square-github"></i></a>
+                    
+                </div>
+                <a class="homeicon" href="#header">
+                    <i class="fa-regular fa-circle-up"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- <!..............about........> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/544d16a7-4791-4909-86a9-0ae0daddbe9d.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I am Srijith A P, a web developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself in web design/development since 2020. I enjoy creating beautifully designed, intuitive and functional websites</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('certificates')" >Licenses & certifications </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="certificates">
+                        <ul>
+                            <li><span>UI Engineer</span><br/><a href="https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/">https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/</a></li>
+                            <li><span>Backend Developer</span><br/><a href="https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/">https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/</a></li>
+                            <li><span>Web Application Developer</span><br/><a href="https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/">https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/</a></li>
+                            <li><span>DevOps Engineer</span><br/><a href="https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/">https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/</a></li>
+                            <li><span>Mobile Application Developer</span><br/><a href="https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/">https://steyp.com/tech-schooling/certification/e4iqbbd42bk1p8y9ys0m/</a></li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bcom With Computer Application</span><br/>Year Of Passout : 2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........service...... -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>CSS</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JAVASCRIPT</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>BOOTSTRAP</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sass"></i>
+                    <h2>SASS</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>REACT</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON</h2>
+                </div>
+                <div>
+                    <img src="./Images/djangoproject.png" alt="">
+                    <h2>DJANGO</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-git"></i>
+                    <h2>GIT</h2>
+                </div>
+                <div>
+                    <img src="./Images/icons8-postgresql-50.png" alt="">
+                    <h2 style="margin-top: 16px;">POSTGRESQL</h2>
+                </div></Var>
+            </div>
+        </div>
+    </div>
+    <!-- .........projects....... -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS </h1>
+            <div class="project-list">
+                <div>
+                    <div class="img-container">
+                        <img src="./Project Thumbnails/screencapture-minimals-cc-2021-10-21-10_49_15.png" alt="">
+                    </div>
+                    <h2>MINIMAL</h2>
+                    <p>I build this project using python django for backend, django templates for frontend and Postgresql database.I build this project using python django for backend, django templates for frontend and Postgresql database.I build this project using python django for backend, django templates for frontend and Postgresql database.I build this project using python django for backend, django templates for frontend and Postgresql database.</p>
+                    <div class="button-container">
+                        <a href="" class="button"> <i class="fa-brands fa-github"></i> View In GitHub </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <img src="./Project Thumbnails/evolojpg.jpg" alt="">
+                    </div>
+                    <h2>EVOLO</h2>
+                    <p>I build for backend, django templates for frontend and Postgresql database.I build this project using pythnd Postgresql database.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/Srijith21/Evolo-Website" class="button"> <i class="fa-brands fa-github"></i>View In GitHub </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <img src="./Project Thumbnails/NewsApp.png" alt="">
+                    </div>
+                    <h2>NEWS APP</h2>
+                    <p>I build this project using python django for backend, django templates for frontend and Postgresql database.I build this project using python django for backend, django templates for frontend and Postgresql database.I build this project using python django for backend, django templates for frontend and Postgresql database.I build this project using python django for backend, django templates for frontend and Postgresql database.</p>
+                    <div class="button-container">
+                        <a href="https://github.com/Srijith21/ReactNative-NewsApp" class="button"> <i class="fa-brands fa-github"></i> View In GitHub </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...........contact......... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact  Me</h1>
+                    <p><a href="mailto: srijithsreenivasan21@gmail.com "><i class="fa-regular fa-envelope"></i> srijithsreenivasan21@gmail.com </a></p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/srijith_sreenivasan?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/srijith-a-p-5b60a3169/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Srijith21"><i class="fa-brands fa-square-github"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw54TrILJo8pM3owJMhcgOE_S0Zdk9XtQ1466xCD0mSma3MKo6Kb0yufRzY20JWULoJVw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
