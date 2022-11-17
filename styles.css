@@ -11,8 +11,8 @@
     font-family: 'Poppins',sans-serif;
 }
 body {
-	background: #080808;
-	color: #fff;
+	background: #181818;
+	color: #ababaa;
 	overflow-x: hidden;
 	min-width: 320px;
 	font-weight: 500;
@@ -42,6 +42,8 @@ img.logo{
 nav h1{
     color: #ff004f;
     font-size: 30px;
+    font-weight: 900;
+
 }
 nav ul li{
     display: inline-block;
@@ -49,8 +51,9 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color: #fff;
-    font-size: 20px;
+    color: #ababaa;
+    font-size: 15px;
+    font-weight: 700;
     text-decoration: none;
     position: relative;
 }
@@ -88,7 +91,6 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    margin-bottom: 25px;
     color: #ababaa;
 }
 .row{
@@ -109,11 +111,14 @@ nav ul li a:hover::after{
 .about-col-2 p{
     margin-top: 15px;
 }
-
+.about-col-2 p a{
+    color: #ababaa;
+    font-size: 15px;
+}
 .sub-title{
     font: size 60px;
     font-weight: 600;
-    color: #fff;
+    color: #ababaa;
 }
 .tab-titles{
     display: flex;
@@ -232,8 +237,8 @@ nav ul li a:hover::after{
     display: none;
 }
 .project-list div a.button{
-    color: #ababaa;
-    background: #fff;
+    color: #eacd26;
+    background: #2d2d22;
     border-radius: 10px;
     padding: 30px 20px;
     display: flex;
@@ -304,13 +309,13 @@ form input,form textarea{
     background: #262626;
     margin: 20px;
     font-size: 18px;
-    color: #fff;
+    color: #ababaa;
     padding: 20px;
     border-radius: 10px;
 }
 form .btn2{
     padding: 20px 80px;
-    color:#fff;
+    color:#ababaa;
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -324,6 +329,15 @@ nav .fas{
     right: 50px;
     color: #ababaa;
     font-size: 50px;
+}
+.coloricon{
+    color: #53534f;
+    font-size:20px;
+    margin: 50px auto;
+}
+.coloricon span{
+    color: #eacd26;
+    cursor: pointer;
 }
 /* ......................................................css for small acreens......... */
 
@@ -420,6 +434,9 @@ nav .fas{
     }
     .homeicon{
         display: none;
+    }
+    #skills{
+        padding-top: 1px;
     }
 
 }
